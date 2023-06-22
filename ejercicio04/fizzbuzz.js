@@ -11,7 +11,8 @@ parámetro un número entero n y ejecute el juego FizzBuzz. */
 const fizzBuzz = (numero) => {
     for (let i = 1; i <= numero; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            console.log(i + " fizzbuzz"); //Si el número es divisible tanto por 3 como por 5, debes imprimir "FizzBuzz".
+            //Si el número es divisible tanto por 3 como por 5, debes imprimir "FizzBuzz".
+            console.log(i + " fizzbuzz");
         } else if (i % 3 === 0) {
             //Si el número es divisible por 3, debes imprimir "Fizz".
             console.log(i + " fizz");
